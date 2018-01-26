@@ -1,0 +1,19 @@
+{
+    "maxReviewers": 5,
+    "message": "@pullRequester Thanks for your pull request! By analyzing the blame information on this pull request, We identified @reviewers to be potential reviewers.",
+    "numFilesToCheck": 10,
+    "findPotentialReviewers": true,
+    "fileBlacklist": ["*.md"],
+    "userBlacklist": [],
+    "userBlacklistForPR": [],
+    "requiredOrgs": [],
+    "skipAlreadyAssignedPR": false,
+    "skipAlreadyMentionedPR": false,
+    "assignToReviewer": false,
+    "createReviewRequest": false,
+    "skipTitle": "",
+    "withLabel": "",
+    "delayed": false,
+    "delayedUntil": "1d",
+    "skipCollaboratorPR": false
+}
