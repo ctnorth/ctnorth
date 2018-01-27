@@ -9,30 +9,17 @@
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/ctnorth/ctnorth.svg)](http://isitmaintained.com/project/ctnorth/ctnorth "Average time to resolve an issue")
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/ctnorth/ctnorth.svg)](http://isitmaintained.com/project/ctnorth/ctnorth "Percentage of issues still open")
 
-**CTNorth** is an open source game engine recreation and modification framework for the PC versions of old Grand Theft Auto games, bundling with networked multiplayer, in which this functionality is not orginally found.
+**CTNorth** is a modernized recreation of the GTA: San Andreas' game engine. The project is currently in an early stage of development.
 
-Primarily focused around the PC version of GTA: San Andreas; CTNorth is designed to give access to the most of what the game's engine can offer.
-
-The project is currently in an early stage of development.
-I'm working on CTNorth solo in my spare time, so please keep in mind: the project activity will vary greatly from time to time.
+**NOTE:** *I'm working on this project solo in my spare time and thus the development activity might vary greatly from time to time.
 
 ## Features
 
-* Multiplayer
-  - Why we have feature 1.
-* Auto-updater
-  - Why we have feature 2.
-* Feature 3
-  - Why we have feature 3.
+**TODO**
 
 ## Installation
 
 **TODO**
-
-```dos
-git clone --recursive https://github.com/ctnorth/ctnorth.git
-cd ctnorth
-```
 
 ## Contributing
 
