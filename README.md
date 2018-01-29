@@ -11,19 +11,7 @@
 
 **CTNorth** is a modernized recreation of the GTA: San Andreas' game engine. The project is currently in an early stage of development.
 
-**NOTE:** *I'm working on this project solo in my spare time and thus the development activity might vary greatly from time to time.
-
-## Features
-
-**TODO**
-
-## Installation
-
-**TODO**
-
-## Contributing
-
-**TODO**
+**NOTE:** I'm working on this project solo in my spare time and thus the development activity might vary greatly from time to time.
 
 ## License
 
