@@ -1,7 +1,4 @@
-# EditorConfig file
-# Author(s):       iFarbod <ifarbod@outlook.com>
-#
-# Copyright (c) 2013-2018 CTNorth Team
+# Copyright (c) 2013-2018 The CTNorth Authors
 #
 # Distributed under the MIT license (See accompanying file LICENSE or copy at
 # https://opensource.org/licenses/MIT)
@@ -12,7 +9,7 @@ root = true
 # Windows-style newlines with a newline ending every file.
 [*]
 charset = utf-8
-end_of_line = crlf
+end_of_line = lf
 indent_style = space
 indent_size = 4
 insert_final_newline = true
@@ -26,23 +23,14 @@ indent_style = tab
 [*.{csproj,fsproj,vbproj,vcxproj,vcxproj.filters,proj,projitems,shproj}]
 indent_size = 2
 
-# Configuration Files
-[*.{json,xml,yml,yaml,config,props,targets,nuspec,resx,ruleset,vsixmanifest,vsct}]
-indent_size = 2
-
 # Markdown Files
 [*.md]
 indent_size = 2
 trim_trailing_whitespace = false
 
-# Web Files
-[*.{htm,html,js,ts,css,scss,less}]
-indent_size = 2
-insert_final_newline = true
-
-# Bash Files
-[*.sh]
-end_of_line = lf
+# Batchfiles
+[*.{bat,cmd}]
+end_of_line = crlf
 
 # C# Code Style Settings
 [*.cs]
