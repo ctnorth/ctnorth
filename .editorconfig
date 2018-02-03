@@ -1,7 +1,7 @@
 # Copyright (c) 2013-2018 The CTNorth Authors
 #
-# Distributed under the MIT license (See accompanying file LICENSE or copy at
-# https://opensource.org/licenses/MIT)
+# Distributed under the GPLv3 license (See accompanying file LICENSE.md or copy at
+# https://opensource.org/licenses/GPL-3.0)
 
 # Top-most EditorConfig file.
 root = true

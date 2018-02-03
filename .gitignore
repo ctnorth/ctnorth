@@ -1,10 +1,7 @@
-# GitHub file ignore
-# Author(s):       iFarbod <ifarbod@outlook.com>
+# Copyright (c) 2013-2018 The CTNorth Authors. All Rights Reserved.
 #
-# Copyright (c) 2013-2018 CTNorth Team
-#
-# Distributed under the MIT license (See accompanying file LICENSE or copy at
-# https://opensource.org/licenses/MIT)
+# Distributed under the GPLv3 license (See accompanying file LICENSE.md or copy at
+# https://opensource.org/licenses/GPL-3.0)
 
 #########################################################################
 ## Visual Studio .gitignore

@@ -1,7 +1,4 @@
--- CTNorth build configuration script
--- Author(s):       iFarbod <ifarbod@outlook.com>
---
--- Copyright (c) 2013-2018 CTNorth Team
+-- Copyright (c) 2013-2018 The CTNorth Authors. All Rights Reserved.
 --
 -- Distributed under the MIT license (See accompanying file LICENSE or copy at
 -- https://opensource.org/licenses/MIT)
@@ -13,13 +10,7 @@
 -- file to your new one or Premake won't know about it.
 
 -- Add build/premake to path
-premake.path = premake.path .. ";build/premake"
-
---require "compose_files"
---require "install_cef"
---require "install_data"
-
-dofile "buildoptions.lua"
+--premake.path = premake.path .. ";build/premake"
 
 -- The _ACTION variable can be nil, which will be annoying.
 -- Let's make an action that won't be nil.
@@ -62,7 +53,6 @@ workspace "CTNorth"
     systemversion "10.0.16299.0"
     startproject "Game"
 
-    -- So we won't hit address space limit so often during linkage.
     preferredtoolarchitecture "x86_64"
     --warnings "Extra"
     --exceptionhandling "Off"
@@ -123,24 +113,8 @@ workspace "CTNorth"
         }
 
     -- Include the projects we are going to build
-    group "Base"
-    include "base"
-
     group "Game"
-    include "engine"
     include "game"
-
-    -- group "Components"
-    -- include "components"
-
-    --group "Net"
-    --include "net"
-
-    group "Tests"
-    include "tests"
-
-    group "Vendor"
-    include "vendor/angelscript"
 
 -- Cleanup
 if _ACTION == "clean" then
